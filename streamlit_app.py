@@ -8,7 +8,7 @@ st.caption("Predict loan approval using Machine Learning")
 st.caption("Created by Lovish Aggarwal ❤️")
 st.divider()
 
-API="http://127.0.0.1:8000/predict"
+API="https://loan-approval-predictor-1voq.onrender.com/predict"
 
 # Applicant Details
 st.subheader("👤 Applicant Details")
