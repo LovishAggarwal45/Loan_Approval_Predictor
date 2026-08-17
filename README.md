@@ -43,26 +43,46 @@ Deployed Application
 
 📂 Project Structure
 
+<pre>
 Loan_Approval_Predictor/
-│
 ├── Loan_Approval.ipynb
 ├── Model.pkl
 ├── app.py
-├── streamlit_app.py
 ├── loan_approval_dataset.csv
 ├── requirements.txt
+├── streamlit_app.py
 └── README.md
+</pre>
 
 📄 File Description
 
-File| Description
-"Loan_Approval.ipynb"| Data analysis, preprocessing, model training and evaluation
-"Model.pkl"| Trained Machine Learning model
-"app.py"| FastAPI application for serving predictions
-"streamlit_app.py"| Streamlit web application
-"loan_approval_dataset.csv"| Dataset used for training
-"requirements.txt"| Required Python dependencies
-"README.md"| Project documentation
+<table>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr><tr>
+<td><code>Loan_Approval.ipynb</code></td>
+<td>Data analysis, preprocessing, model training and evaluation</td>
+</tr><tr>
+<td><code>Model.pkl</code></td>
+<td>Saved trained Machine Learning model</td>
+</tr><tr>
+<td><code>app.py</code></td>
+<td>FastAPI application for serving model predictions</td>
+</tr><tr>
+<td><code>loan_approval_dataset.csv</code></td>
+<td>Dataset used for training and evaluating the model</td>
+</tr><tr>
+<td><code>requirements.txt</code></td>
+<td>Required Python dependencies</td>
+</tr><tr>
+<td><code>streamlit_app.py</code></td>
+<td>Streamlit web application for interactive predictions</td>
+</tr><tr>
+<td><code>README.md</code></td>
+<td>Project documentation</td>
+</tr>
+</table>
 
 🧠 Machine Learning
 
