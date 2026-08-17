@@ -29,17 +29,21 @@ The project uses Scikit-learn for machine learning, FastAPI for model serving, a
 
 🔄 Workflow
 
-Applicant Details
-       ↓
+<pre>
+Loan Application Data
+        ↓
 Data Preprocessing
-       ↓
+        ↓
+Feature Transformation
+        ↓
 Trained ML Model
-       ↓
+        ↓
 Loan Approval Prediction
-       ↓
+        ↓
 FastAPI / Streamlit
-       ↓
-Deployed Application
+        ↓
+User Result
+</pre>
 
 📂 Project Structure
 
